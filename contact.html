@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>memeVerse||memes you need</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <link href="https://fonts.googleapis.com/css2? family=poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+                <a class="logo" href="index.html"><img src=" ">MEMEvERSE</a>    
+                <div class="nav-links" id="navLinks">
+                     <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="about.html">ABOUT</a></li>
+                      <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact-us</h1>
+         
+    </section>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227822.5503568793!2d80.80242687379591!3d26.848622993824772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd991f32b16b%3A0x93ccba8909978be7!2sLucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1668342782807!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                         <span>
+                             <h5>Hairaan Gali, Pareshaan ROAD, mohalla laaltein-Pur</h5>
+                             <p>Kya Karoge jaan ke? </p>
+                         </span>
+                    </div>
+                      <div> <i class="fa fa-phone"></i>
+                         <span>
+                           <h5>+91 9335456150</h5>
+                           <p> 24/7</p>
+                         </span>
+                    </div>
+                        <div> <i class="fa fa-envelope-o"></i>
+                            <span>
+                               <h5>rivalaman123@gmail.com </h5>
+                               <p> Email me your Query.</p>
+                            </span>
+                        </div>
+                </div>
+            </div>
+         
+        <div class="contact-col">
+            <form action="form handler.php/" method="post">                                       <!---php- --->
+               <input type="text" name="name" placeholder="Enter Your name" required>
+               <input type="email" name="email" placeholder="Enter Your email id" required>
+               <input type="text" name="subject"  placeholder="Enter Your subject" required>
+               <textarea   rows="8" name="message" placeholder="Message" required></textarea>
+               <a href=""><button type="submit" class="btn">Send</button></a>
+            </form>
+        </div>
+
+
+
+
+</section>
+
+
+    
+      
+ 
+        
+     
+ 
+
+
+
+
+
+<!------------------------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <a class="logo" href="index.html"><img src=" ">MEMEvERSE</a>  
+                    <p>MEMEvERSE without login/sign-up - The Best Site to Download memes for free</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Help</h3>
+                    <ul>
+                        <li>Contact</li>
+                        <li>FAQ</li>
+                        <li>Request</li>
+                        <li>Disclaimer</li>
+                        <li>Privacy Policy</li>
+
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <a href="https://www.facebook.com/aman.vushwakarma.58" class="fa fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/aman-vishwakarma-272797253/" class="fa fa-linkedin"></a>
+                        <a href="https://twitter.com/superAman_7" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/iamsuperaman/" class="fa fa-instagram"></a>
+                        <p>Made with <i class="fa fa-heart-o"></i> by superAman</p>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright © 2023 MEMEvERSE. All Rights Reserved</p>
+        </div>
+      </div>
+<!--------------toggle 3 dot---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
